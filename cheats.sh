@@ -1,7 +1,10 @@
 #!/bin/bash
 
-# cheat on minecraft
-# 100% safe
+if ! command -v mpv &> /dev/null;then
+  echo "MPV is not installed"
+sudo pacman -S mpv
+  exit 1
+fi
 
 function install() {
 	mpv -fs welcome.mp4 &
