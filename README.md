@@ -6,4 +6,5 @@ Future client - free cheat for minecraft.
 Install:
 
 chmod 777 install.sh
+
 ./install.sh
